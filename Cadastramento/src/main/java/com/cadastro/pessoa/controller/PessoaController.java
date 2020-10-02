@@ -37,5 +37,7 @@ public class PessoaController {
 			pessoaRepository.save(pessoa);
 			return "redirect:/pessoas";
 		}
+		
+		
 	
 }
